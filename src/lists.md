@@ -8,7 +8,7 @@ The following code assigns a list to a variable, which will then be used to mani
 example_list = ['a', 1, True, 4, 6, 'b']
 ```
 
-### Access
+## Access
 
 ```python
 example_list [-1] # Backwards accessing
@@ -16,7 +16,7 @@ example_list [2:5] # Third, Fourth and Fifth item
 example_list [2:] # Access from third time to the end of the list
 ```
 
-### Change
+## Change
 
 ```python
 example_list [0] = 'c' # It is not 'a' anymore, it is 'c' for the first element
@@ -24,14 +24,14 @@ example_list [1:3] = ['x', 3] # The second and third item are now 'x' and 3
 example_list [1:3] = ['r'] # Replaces the range of items with just one item 'r'
 ```
 
-### Add/Extend
+## Add/Extend
 
-### Without replacing, 'b' slides in between the the second and third item
+## Without replacing, 'b' slides in between the the second and third item
 ```python
 example_list.insert (2, 'b')
 ```
 
-### Adds 'q' to the end of the list
+## Adds 'q' to the end of the list
 ```python
 example_list.append ('q')
 ```
@@ -41,12 +41,12 @@ Extend -> extend () works for any iterable objects e.g. tuples, sets, dictionari
 ```python
 example_list2 = ['l', 10]
 ```
-### Adds the entire example_list2 list to the end of the list as elements
+## Adds the entire example_list2 list to the end of the list as elements
 ```python
 example_list.extend (example_list2)
 ```
 
-### Remove
+## Remove
 
 ```python
 example_list.remove ('a') # Removes the specific item
@@ -55,7 +55,7 @@ example_list.remove ('a') # Removes the specific item
 `example_list.clear() # Keeps the list empty by removing all elements
 ```
 
-### Looping
+## Looping
 
 ```python
 # For-Loop for each item

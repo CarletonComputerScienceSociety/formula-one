@@ -8,13 +8,13 @@ The following code assigns a tuple to a variable, which will then be used to man
 example_tuple = (1, 'a', True)
 ```
 
-### Access
+## Access
 
 ```python
 example_tuple [1] # access
 ```
 
-### Update
+## Update
 
 ```python
 tuple_list = list(example_tuple)
@@ -22,7 +22,7 @@ tuple_list [1] = 'b'
 example_tuple = tuple(tuple_list)
 ```
 
-### Unpack
+## Unpack
 
 ```python
 (x, y, z) = example_tuple
